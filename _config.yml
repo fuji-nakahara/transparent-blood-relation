@@ -1,0 +1,59 @@
+title: 透明な血のつながり
+author: フジ・ナカハラ
+description: >-
+  TBD
+url: https://fuji-nakahara.github.io
+baseurl: /transparent-blood-relation
+version: v0.0.0
+timezone: Asia/Tokyo
+lang: ja_JP
+
+# Build settings
+markdown: FujiMarkdown
+theme: jekyll-theme-fuji
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Front Matter defaults
+permalink: none
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: novel
+
+# Theme settings
+homepage: https://fuji-nakahara.github.io/
+repository: fuji-nakahara/transparent-blood-relation
+google_analytics: UA-118273401-1
+show_ebooks_from_github_releases: false
+reverse_posts_order: false
+show_excerpts: false
+show_date: false
+date_format: "%Y年%m月%d日"
+
+# SEO
+twitter:
+  username: fuji_nakahara
+
+# Ebook settings
+ebook:
+  file_name: transparent-blood-relation
+  page_progression_direction: rtl
+
+# Deploy settings
+kakuyomu:
+  work_id:
+narou:
+  ncode:
