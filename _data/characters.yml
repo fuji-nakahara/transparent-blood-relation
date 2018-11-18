@@ -1,0 +1,25 @@
+- name: アーニー
+  age: 14
+  sex: male
+  gender: male
+  height: 156
+  description: |
+    イクエリアの少年。
+
+- name: ナオミ
+  age: 38
+  sex: female
+  gender: female
+  height: 156
+  description: |
+    アーニーの母。
+    日本生まれ。
+
+- name: ロバート
+  age: 40
+  sex: male
+  gender: male
+  description: |
+    アーニーの父。
+    イクエリアで生まれ育ち、日本で働いていた。
+    2060年9月に事故で死んでしまった。
