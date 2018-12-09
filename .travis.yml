@@ -12,7 +12,7 @@ cache: bundler
 script:
   - bundle exec jekyll build
   - bundle exec htmlproofer ./_site --disable-external --url-swap '\A\/transparent-blood-relation:'
-  - bundle exec jekyll build-ebook --kindle
+  - bundle exec jekyll build-ebook --future --kindle
 
 deploy:
   - provider: pages
