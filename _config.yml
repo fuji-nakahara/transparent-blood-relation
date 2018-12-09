@@ -1,7 +1,7 @@
 title: 透明な血のつながり
 author: フジ・ナカハラ
 description: >-
-  TBD
+  親が子どもを特別扱いするのは、愛か〈血縁差別〉か
 url: https://fuji-nakahara.github.io
 baseurl: /transparent-blood-relation
 version: v0.0.0
@@ -15,14 +15,16 @@ theme: jekyll-theme-fuji
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - package.json
+  - package-lock.json
 
 # Front Matter defaults
 permalink: none
@@ -40,7 +42,7 @@ google_analytics: UA-118273401-1
 show_ebooks_from_github_releases: false
 reverse_posts_order: false
 show_excerpts: false
-show_date: false
+show_date: true
 date_format: "%Y年%m月%d日"
 
 # SEO
@@ -54,6 +56,6 @@ ebook:
 
 # Deploy settings
 kakuyomu:
-  work_id:
+  work_id: 1177354054887774030
 narou:
-  ncode:
+  ncode: N3196FE
