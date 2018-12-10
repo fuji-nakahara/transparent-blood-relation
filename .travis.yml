@@ -28,7 +28,7 @@ deploy:
       secure: "eVTttGBoRHj3ml06afD5RpXHm5r7vrX59R/YOO5b6j6WtlmMKJ8heOgYRP0HaynIOZ+/8ocj7Eq1uFPFLpEbY0KZ55qSUjK2pKoQkoe2V9ZrSUJLGhe1SQ6jJOGJqrsaQHb9j6ku3UAksotYM3Emq6MCTEJm57LVHbvtWfenD4s2wfWi08mAvtvNBvKNo1jIzQM8WItlwGjDhmS/N55j6aTlhI4opzjBZ+AAmTlKlM8+nHCCoDLYq5++0QtA6qJj9hsNHfc11tAbZ7FHRCT7S1IrZZxaA7MnhtP4yQ/wjSzLo9mgoWQl74Rk3tgMX/mB5SKULk8jVNstFSoJqSEXwWSEFmGKETt3wuoCQrITMKh+PnhhzlmZDeZoZXMzJQBjaKvHgvZLRgE9Arpfk60LX650p0yLVeX5odHvTz6HkhGRpfcl0khuNkrBRJAkcmy2PPW1CvBX6AZfPih+s+z0uNBd+Ei/zPXHebpWDKrpSeeqFPbQPTabgboz/s/L195zvhVv/Lo3oyeOp1PyTR59FnezI7FxWppbnfit7akiALjam1agQXCRISXqOIKU4nAKbzjSJBkrB8CPv+ExV2hqj6Tpsu8t1alwMeWiKBiOULCbRjRxs9ryP75OrHuBXPuert/Vc30hN97dMFhFy3Lh+Afug4Hm1tAJ1da//TQjpBc="
     skip_cleanup: true
     file:
-      - _ebook/example.epub
-      - _ebook/example.mobi
+      - _ebook/transparent-blood-relation.epub
+      - _ebook/transparent-blood-relation.mobi
     on:
       tags: true
