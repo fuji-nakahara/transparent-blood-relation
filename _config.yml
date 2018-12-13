@@ -39,8 +39,8 @@ defaults:
 homepage: https://fuji-nakahara.github.io/
 repository: fuji-nakahara/transparent-blood-relation
 google_analytics: UA-118273401-1
-show_ebooks_from_github_releases: false
-reverse_posts_order: false
+show_ebooks_from_github_releases: true
+reverse_posts_order: true
 show_excerpts: false
 show_date: true
 date_format: "%Y年%m月%d日"
