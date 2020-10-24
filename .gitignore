@@ -1,12 +1,5 @@
-/tmp/
+/out/*
+!/out/
+!/out/.keep
 
-_site
-_ebook
-.sass-cache
-.jekyll-metadata
-
-# jekyll-deploy-shosetsu
-.deploy-shosetsu.yml
-
-# node dependencies
 node_modules/
